@@ -1,16 +1,29 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>タイトル</title>
-    <meta name="description" content="説明">
-    <style>
-      body {
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <p>文章</p>
-  </body>
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>みんはや 問題集</title>
+        <meta name="description" content="みんはやの問題集" />
+        <meta name="robots" content="noindex,nofollow" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="question.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="content-box">
+            <p class="question-title">問題文</p>
+            <div id="question"></div>
+            <p class="answer-title">答え</p>
+            <div id="answer"></div>
+            <button id="stopButton">停止</button>
+            <button id="showButton">解答表示</button>
+            <button id="nextButton">次の問題</button>
+            <div id="exclusion">
+                <label>
+                    <input type="checkbox" name="exclusion">以降表示しない
+                </label>
+            </div>
+        </div>
+    </body>
 </html>
