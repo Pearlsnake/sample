@@ -39,7 +39,7 @@ button {
 #searchButton {
     display: none;
     width: 100px;
-    height: 32px;
+    height: 100%;
     margin: 0px 0px 0px 200px;
 }
 
