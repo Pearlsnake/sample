@@ -39,6 +39,7 @@ button {
 
 #searchButton {
     display: none;
+    box-sizing: border-box;
     width: 100px;
     height: 100%;
     margin: 0px 0px 0px 200px;
