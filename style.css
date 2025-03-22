@@ -36,6 +36,13 @@ button {
     font-size: 18px;
 }
 
+#searchButton {
+    display: none;
+    width: 100px;
+    height: 32px;
+    margin: 0px 0px 0px 200px;
+}
+
 button:active {
     background: rgb(59, 188, 59);;
 }
